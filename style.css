@@ -1,0 +1,130 @@
+html {
+    background-color: #252B42;
+    margin: 10px 60px 10px 60px;
+    color: #ffffff;
+}
+
+/*HEADER*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    border: none;
+    padding: .5rem 0.5rem;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #236AF0;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 10px auto;
+}
+
+.container-header {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 30px;
+    font-size: 21px;
+}
+
+.info-menu {
+    display: flex;
+}
+
+.first-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 300px;
+    margin-right: 120px;
+
+}
+
+.second-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+/*BODY*/
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.text {
+    font-size: 24px;
+}
+
+h5, h6 {
+    color: #236AF0 !important;
+}
+
+.img-card {
+    width: 600px;
+    margin: 100px 0px 0px 30px;
+}
+
+.first-button {
+    display: flex;
+    gap: 20px;
+     
+}
+
+.first-btn {
+    background-color: transparent;
+    border: 1px solid #236AF0;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.second-text {
+    margin: 200px 0px 0px 0px ;
+    font-size: 24px;
+}
+
+.img-second{
+    margin: 250px 0px 0px 0px;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+
+.third-text{
+    font-size: 24px;
+}
+
+.fourt-text{
+    margin: 250px 0px 0px 0px;
+    font-size: 24px;
+}
+
+.last-card{
+    margin: 150px 0px 0px 0px;
+    display: flex;
+    gap: 160px;
+    width: 350px;
+    height: 300px;
+}
